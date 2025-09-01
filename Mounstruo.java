@@ -5,6 +5,6 @@ public class Mounstruo extends Personaje{
 
     @Override
      public void personajeActuando(){
-        System.out.println("El personaje" + nombre + " " + raza + "de nivel: " + nivel + "esta comiendo hadas");
+        System.out.println("El personaje " + nombre + " " + raza + "de nivel " + nivel + " esta comiendo hadas");
 }
 }

@@ -23,13 +23,14 @@ public class Personaje {
         return habilidades;
     }
     public void mostrarInforPersonaje(){
+        System.out.println("-------------------Información del personaje------------------");
         System.out.println("Nombre del personaje: " + nombre);
         System.out.println("Raza del personaje: " + raza);
         System.out.println("Nivel del personaje: " + nivel);
         System.out.println("Secreto del personaje: " + getSecreto());
-        System.out.println("Habilidades del personaje: " + getHabilidades());
+        System.out.println("Habilidades del personaje: " + getHabilidades() + "\n\n");
     }
     public void personajeActuando(){
-        System.out.println("El personaje" + nombre + "esta quieto");
+        System.out.println("El personaje " + nombre + " esta quieto");
     }
 }

@@ -6,6 +6,6 @@ public class Hada extends Personaje{
     
      @Override
     public void personajeActuando(){
-        System.out.println("El personaje" + nombre + " " + raza + "de nivel: " + nivel + "esta volando");
+        System.out.println("El personaje " + nombre + " " + raza + "de nivel " + nivel + " esta volando");
     }
 }

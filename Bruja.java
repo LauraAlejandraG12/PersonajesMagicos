@@ -5,6 +5,6 @@ public class Bruja extends Personaje{
     
      @Override
     public void personajeActuando(){
-        System.out.println("El personaje" + nombre + " " + raza + "de nivel: " + nivel + "esta haciendo una posión");
+        System.out.println("El personaje " + nombre + " " + raza + " de nivel " + nivel + " esta haciendo una posión");
     }
 }
